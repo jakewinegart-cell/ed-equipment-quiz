@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f7f7f5"/>
+<path d="M10 150 Q60 120 110 135" fill="none" stroke="#3b78c4" stroke-width="22" stroke-linecap="round"/>
+<path d="M290 135 Q340 120 390 150" fill="none" stroke="#3b78c4" stroke-width="22" stroke-linecap="round"/>
+<rect x="100" y="110" width="200" height="60" rx="28" fill="#e9eef1" stroke="#7a8b94" stroke-width="2.5"/>
+<rect x="175" y="122" width="50" height="40" rx="18" fill="#cfd8dd" stroke="#7a8b94" stroke-width="2"/>
+<circle cx="200" cy="142" r="13" fill="#f7f7f5" stroke="#7a8b94" stroke-width="2"/>
+<rect x="190" y="170" width="20" height="70" rx="6" fill="#dde4e8" stroke="#7a8b94" stroke-width="2"/>
+<rect x="215" y="88" width="34" height="26" rx="4" fill="#5c6f7a"/><circle cx="232" cy="101" r="6" fill="#f0f0f0"/>
+<rect x="120" y="125" width="40" height="30" rx="10" fill="none" stroke="#9aa9b1" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="240" y="125" width="40" height="30" rx="10" fill="none" stroke="#9aa9b1" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="200" y="275" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#666">Fits over the mouth; strap goes around the neck</text>
+</svg>

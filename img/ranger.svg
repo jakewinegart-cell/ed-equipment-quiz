@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f7f7f5"/>
+<rect x="70" y="10" width="14" height="285" fill="#b7bec3"/>
+<rect x="84" y="120" width="30" height="16" fill="#8f979c"/>
+<rect x="110" y="60" width="200" height="180" rx="12" fill="#e9ecee" stroke="#7f898f" stroke-width="2.5"/>
+<rect x="128" y="78" width="96" height="44" rx="4" fill="#1d2a33"/>
+<text x="176" y="110" font-family="monospace" font-size="28" fill="#ffb347" text-anchor="middle">41</text>
+<text x="214" y="96" font-family="sans-serif" font-size="11" fill="#ffb347">°C</text>
+<circle cx="250" cy="90" r="7" fill="#58c26b"/><circle cx="250" cy="112" r="7" fill="#f0c54a"/><circle cx="276" cy="90" r="7" fill="#d9534f"/>
+<rect x="300" y="135" width="14" height="80" rx="3" fill="#59646b"/>
+<rect x="128" y="140" width="164" height="80" rx="6" fill="#dfe3e6" stroke="#9aa3a8" stroke-width="1.5"/>
+<path d="M310 145 L345 140 L345 210 L310 205" fill="#f2f5f7" stroke="#8aa0ab" stroke-width="2"/>
+<path d="M345 150 Q380 150 380 120 L380 10" fill="none" stroke="#b9c7ce" stroke-width="4"/>
+<path d="M345 200 Q380 200 380 240 L380 295" fill="none" stroke="#b9c7ce" stroke-width="4"/>
+</svg>

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#14506b">
-<title>ED Equipment Quiz</title>
+<title>ED Equipment Quiz · Airway, Trauma, Vent</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
@@ -27,7 +27,7 @@
   <select id="catSel" aria-label="Category"></select>
   <select id="lvlSel" aria-label="Level">
     <option value="0">All levels</option>
-    <option value="1">Level 1 · Basic</option>
+    <option value="1">Level 1 · Core</option>
     <option value="2">Level 2 · Intermediate</option>
     <option value="3">Level 3 · Advanced</option>
   </select>
@@ -42,7 +42,7 @@
       <button id="starBtn" class="star" aria-pressed="false" aria-label="Star as hard" title="Star as hard">☆</button>
     </div>
     <div class="credit" id="credit"></div>
-    <p class="q">What is this item?</p>
+    <p class="q" id="qText">What is this item?</p>
     <div id="options" class="options"></div>
     <section id="feedback" class="feedback" hidden>
       <div id="verdict" class="verdict"></div>
@@ -82,7 +82,7 @@
 <div id="credits" class="sheet" hidden role="dialog" aria-label="Image credits">
   <div class="sheetInner">
     <div class="sheetHead"><h2>Image credits</h2><button id="creditsClose" class="chip close">✕ Close</button></div>
-    <p class="sheetNote">Photos are from Wikimedia Commons, used under the licenses listed (public domain, CC0, CC BY, or CC BY-SA). They were resized and compressed for this app. Items marked “Illustration” were drawn for this prototype.</p>
+    <p class="sheetNote">Photos are from Wikimedia Commons, used under the licenses listed (public domain, CC0, CC BY, or CC BY-SA). They were resized and compressed for this app. Items marked “Illustration” were either drawn for this prototype or are licensed Commons illustrations (credited). Arrows, crops and blurred labels were added for the quiz where noted.</p>
     <ol id="creditList" class="creditList"></ol>
   </div>
 </div>

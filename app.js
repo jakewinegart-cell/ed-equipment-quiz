@@ -3,7 +3,8 @@
   const ITEMS = window.ITEMS.filter((it) => window.IMAGES[it.id]);
   const IMG = window.IMAGES, CATS = window.CATS;
   const byId = Object.fromEntries(ITEMS.map((it) => [it.id, it]));
-  const LEVELS = { 1: 'Level 1 · Basic', 2: 'Level 2 · Intermediate', 3: 'Level 3 · Advanced' };
+  const LEVELS = { 1: 'Level 1 · Core', 2: 'Level 2 · Intermediate', 3: 'Level 3 · Advanced' };
+  const DEFAULT_Q = 'What is this item?';
   const STAR_KEY = 'edq-stars-v1';
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -15,8 +16,14 @@
 
   // ---- stars (saved on this device) ----
   let stars = new Set();
-  try { stars = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || '[]').filter((id) => byId[id])); } catch (e) { stars = new Set(); }
   const saveStars = () => { try { localStorage.setItem(STAR_KEY, JSON.stringify([...stars])); } catch (e) { /* private mode */ } };
+  // Starred IDs from older decks that no longer exist are dropped quietly (and the cleaned list saved back).
+  try {
+    const raw = JSON.parse(localStorage.getItem(STAR_KEY) || '[]');
+    const list = Array.isArray(raw) ? raw : [];
+    stars = new Set(list.filter((id) => typeof id === 'string' && byId[id]));
+    if (stars.size !== list.length || !Array.isArray(raw)) saveStars();
+  } catch (e) { stars = new Set(); saveStars(); }
 
   // ---- state ----
   let cat = 'all', lvl = 0, hardOnly = false, shuffled = false, seed = 1;
@@ -60,10 +67,12 @@
     $('starInline').setAttribute('aria-pressed', String(on));
     $('starInline').textContent = on ? '★ Starred as hard (tap to unstar)' : '☆ Star this one as hard';
   }
+  const isIllo = (m) => m.type === 'illustration' || m.type === 'diagram';
   function creditHTML(m) {
     if (m.type === 'illustration') return 'Illustration drawn for this app (not a photo).';
     const lic = m.licenseUrl ? `<a href="${esc(m.licenseUrl)}" target="_blank" rel="noopener">${esc(m.license)}</a>` : esc(m.license);
-    return `Photo: ${esc(m.author)} · ${lic} · <a href="${esc(m.source)}" target="_blank" rel="noopener">Wikimedia Commons</a>`;
+    const note = m.note ? ` (${esc(m.note)})` : '';
+    return `${m.type === 'diagram' ? 'Illustration' : 'Photo'}: ${esc(m.author)} · ${lic} · <a href="${esc(m.source)}" target="_blank" rel="noopener">Wikimedia Commons</a>${note}`;
   }
 
   function setView(v) { $('quiz').hidden = v !== 'quiz'; $('empty').hidden = v !== 'empty'; $('done').hidden = v !== 'done'; showingDone = v === 'done'; }
@@ -87,7 +96,8 @@
     $('levelTag').textContent = `${CATS[it.cat]} · L${it.level}`;
     $('barFill').style.width = ((idx + 1) / deck.length * 100) + '%';
     const pic = $('pic'); pic.src = m.src; pic.alt = ans ? it.name : 'Mystery item ' + (idx + 1);
-    $('illoTag').hidden = m.type !== 'illustration';
+    $('illoTag').hidden = !isIllo(m);
+    $('qText').textContent = it.q || DEFAULT_Q;
     $('credit').innerHTML = creditHTML(m);
     renderStar(id);
     $('options').innerHTML = options(id).map((oid, i) => `<button class="opt" data-id="${oid}"><span class="L">${'ABCD'[i]}</span><span>${esc(byId[oid].name)}</span></button>`).join('');
@@ -166,7 +176,7 @@
       $('creditList').innerHTML = ITEMS.slice().sort((a, b) => a.name.localeCompare(b.name)).map((it) => {
         const m = IMG[it.id];
         const body = m.type === 'illustration' ? 'Illustration drawn for this app · original work'
-          : `${esc(m.author)} · ${m.licenseUrl ? `<a href="${esc(m.licenseUrl)}" target="_blank" rel="noopener">${esc(m.license)}</a>` : esc(m.license)}<br><a href="${esc(m.source)}" target="_blank" rel="noopener">${esc(m.title)}</a>`;
+          : `${m.type === 'diagram' ? 'Illustration · ' : ''}${esc(m.author)} · ${m.licenseUrl ? `<a href="${esc(m.licenseUrl)}" target="_blank" rel="noopener">${esc(m.license)}</a>` : esc(m.license)}<br><a href="${esc(m.source)}" target="_blank" rel="noopener">${esc(m.title)}</a>${m.note ? ` · <i>${esc(m.note)}</i>` : ''}`;
         return `<li><img loading="lazy" src="${m.src}" alt=""><div><b>${esc(it.name)}</b>${body}</div></li>`;
       }).join('');
     }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f7f7f5"/><defs><marker id="ah" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#e6142a"/></marker></defs>
+<path d="M20 118 H345 L300 152 H20 Z" fill="#e8eef0" stroke="#7d8a90" stroke-width="2"/>
+<path d="M20 135 H322" stroke="#c3cdd1" stroke-width="1.5"/>
+<ellipse cx="150" cy="135" rx="70" ry="40" fill="#dfe9ec" fill-opacity=".55" stroke="#8fa3aa" stroke-width="2"/>
+<line x1="20" y1="114" x2="200" y2="114" stroke="#5a9bd4" stroke-width="3"/>
+<ellipse cx="300" cy="127" rx="12" ry="6" fill="#ffffff" stroke="#55646a" stroke-width="2.5"/>
+<line x1="335" y1="45" x2="306" y2="110" stroke="#e6142a" stroke-width="5" marker-end="url(#ah)"/>
+<text x="200" y="250" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#555">Distal end of a tracheal tube</text>
+</svg>

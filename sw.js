@@ -1,4 +1,4 @@
-const C = 'ed-equipment-quiz-v1';
+const C = 'ed-equipment-quiz-v2';
 const SHELL = ['./', 'index.html', 'style.css', 'items.js', 'images.js', 'app.js', 'icon.svg', 'manifest.webmanifest'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(C).then((c) => c.addAll(SHELL))); self.skipWaiting(); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== C).map((k) => caches.delete(k))))); self.clients.claim(); });

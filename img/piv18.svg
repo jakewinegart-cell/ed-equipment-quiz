@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f7f7f5"/>
+<line x1="40" y1="150" x2="190" y2="150" stroke="#9aa3a8" stroke-width="3"/>
+<path d="M36 150 L46 146 L46 154 Z" fill="#7f898f"/>
+<rect x="70" y="146" width="122" height="8" rx="3" fill="#eef2f4" fill-opacity=".9" stroke="#b6c0c5"/>
+<path d="M192 140 L230 136 L230 164 L192 160 Z" fill="#2e9e4f" stroke="#555" stroke-width="1.5"/>
+<path d="M200 162 L215 205 L240 205 L228 162 Z" fill="#eef2f4" stroke="#9aa3a8" stroke-width="1.5"/>
+<path d="M200 138 L215 95 L240 95 L228 138 Z" fill="#eef2f4" stroke="#9aa3a8" stroke-width="1.5"/>
+<rect x="206" y="104" width="22" height="34" rx="4" fill="#2e9e4f" stroke="#555" stroke-width="1.5"/>
+<rect x="203" y="92" width="28" height="14" rx="4" fill="#2e9e4f" stroke="#555" stroke-width="1.5"/>
+<rect x="230" y="140" width="50" height="20" rx="3" fill="#f4f6f7" stroke="#9aa3a8" stroke-width="1.5"/>
+<rect x="280" y="136" width="60" height="28" rx="4" fill="#e5eaed" stroke="#9aa3a8" stroke-width="1.5"/>
+<rect x="340" y="140" width="22" height="20" rx="3" fill="#ffffff" stroke="#9aa3a8" stroke-width="1.5"/>
+</svg>

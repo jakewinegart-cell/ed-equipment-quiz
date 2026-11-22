@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f7f7f5"/><path d="M150 30 Q230 10 275 60 Q290 85 292 110 L312 150 Q316 158 304 160 L300 162 Q306 172 298 178 Q304 186 296 192 Q300 212 288 222 Q270 232 252 230 L246 262 L150 268 Q120 250 112 200 Q100 150 110 100 Q120 50 150 30 Z" fill="#f1d9c6" stroke="#a7826a" stroke-width="2.5"/><path d="M302 176 Q290 178 284 172" fill="none" stroke="#a7826a" stroke-width="2"/><path d="M300 162 Q292 162 290 158" fill="none" stroke="#a7826a" stroke-width="2"/><ellipse cx="160" cy="135" rx="18" ry="28" fill="#ecc9b2" stroke="#a7826a" stroke-width="2"/><path d="M262 100 Q272 96 280 102" fill="none" stroke="#6b4f3d" stroke-width="2.5"/><path d="M180 222 Q200 236 238 232" fill="none" stroke="#c9a68e" stroke-width="2"/>
+<circle cx="285" cy="176" r="5" fill="#e6142a"/><circle cx="182" cy="222" r="5" fill="#e6142a"/>
+<path d="M287 160 L287 176 Q250 175 225 190 Q200 205 188 222" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" opacity=".85"/>
+<path d="M287 160 L287 176 Q250 175 225 190 Q200 205 188 222" fill="none" stroke="#2e9e4f" stroke-width="9" stroke-linecap="round"/>
+<rect x="281" y="150" width="14" height="30" rx="3" fill="#2e9e4f" stroke="#1d6b34" stroke-width="2"/>
+</svg>

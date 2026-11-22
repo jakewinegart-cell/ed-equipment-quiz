@@ -1,32 +1,5 @@
-// Image + credit data (photos: Wikimedia Commons; illustrations: drawn for this app)
+// Image + credit data. photo/diagram: Wikimedia Commons (resized; crops, arrows or blurs noted in "note"); illustration: drawn for this app
 window.IMAGES = {
-"bvm": {
-"src": "img/bvm.jpg",
-"type": "photo",
-"title": "Ambu Bag valve mask.jpg",
-"author": "Mike6271",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Ambu_Bag_valve_mask.jpg"
-},
-"nrb": {
-"src": "img/nrb.jpg",
-"type": "photo",
-"title": "Non Rebreather Mask.JPG",
-"author": "ICUnurses",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Non_Rebreather_Mask.JPG"
-},
-"nc": {
-"src": "img/nc.jpg",
-"type": "photo",
-"title": "Oral nasal cannula.jpg",
-"author": "Peterhcharlton",
-"license": "CC BY 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Oral_nasal_cannula.jpg"
-},
 "opa": {
 "src": "img/opa.jpg",
 "type": "photo",
@@ -44,60 +17,6 @@ window.IMAGES = {
 "license": "CC BY-SA 4.0",
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Nasopharyngeal_Airway_2.JPG"
-},
-"lscope": {
-"src": "img/lscope.jpg",
-"type": "photo",
-"title": "Laryngoscope (1).JPG",
-"author": "ICUnurses",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Laryngoscope_(1).JPG"
-},
-"mac": {
-"src": "img/mac.jpg",
-"type": "photo",
-"title": "Macintosh Blades.jpg",
-"author": "Sasata (talk)",
-"license": "CC BY 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Macintosh_Blades.jpg"
-},
-"miller": {
-"src": "img/miller.jpg",
-"type": "photo",
-"title": "Laryngoscope-Miller.JPG",
-"author": "DiverDave",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Laryngoscope-Miller.JPG"
-},
-"vl": {
-"src": "img/vl.jpg",
-"type": "photo",
-"title": "4th generation Video Laryngoscope.jpg",
-"author": "KARL STORZ Endoskope",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:4th_generation_Video_Laryngoscope.jpg"
-},
-"ett": {
-"src": "img/ett.jpg",
-"type": "photo",
-"title": "Endotracheal Tube (2).JPG",
-"author": "ICUnurses",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Endotracheal_Tube_(2).JPG"
-},
-"stylet": {
-"src": "img/stylet.jpg",
-"type": "photo",
-"title": "Tracheal tube stylet.JPG",
-"author": "DiverDave (talk) (on en.wiki)",
-"license": "CC BY 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Tracheal_tube_stylet.JPG"
 },
 "lma": {
 "src": "img/lma.jpg",
@@ -153,6 +72,70 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": "https://commons.wikimedia.org/wiki/File:Yankauer_Suction_Tube_of_Dr._John_Hersel_Gladney_-_DPLA_-_d7d65c4ea9539fb153807eb1268008b3_(page_1).jpg"
 },
+"suction": {
+"src": "img/suction.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
+},
+"lscope": {
+"src": "img/lscope.jpg",
+"type": "photo",
+"title": "Laryngoscope (1).JPG",
+"author": "ICUnurses",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Laryngoscope_(1).JPG"
+},
+"mac": {
+"src": "img/mac.jpg",
+"type": "photo",
+"title": "Macintosh Blades.jpg",
+"author": "Sasata (talk)",
+"license": "CC BY 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Macintosh_Blades.jpg"
+},
+"miller": {
+"src": "img/miller.jpg",
+"type": "photo",
+"title": "Laryngoscope-Miller.JPG",
+"author": "DiverDave",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Laryngoscope-Miller.JPG"
+},
+"vl": {
+"src": "img/vl.jpg",
+"type": "photo",
+"title": "4th generation Video Laryngoscope.jpg",
+"author": "KARL STORZ Endoskope",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:4th_generation_Video_Laryngoscope.jpg"
+},
+"stylet": {
+"src": "img/stylet.jpg",
+"type": "photo",
+"title": "Tracheal tube stylet.JPG",
+"author": "DiverDave (talk) (on en.wiki)",
+"license": "CC BY 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Tracheal_tube_stylet.JPG"
+},
+"bougie": {
+"src": "img/bougie.jpg",
+"type": "photo",
+"title": "Mandrin béquillé Eschmann (Orange) et Echangeur de Cook (Jaune).JPG",
+"author": "Svenriviere",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Mandrin_b%C3%A9quill%C3%A9_Eschmann_(Orange)_et_Echangeur_de_Cook_(Jaune).JPG",
+"note": "arrow added"
+},
 "magill": {
 "src": "img/magill.jpg",
 "type": "photo",
@@ -162,6 +145,16 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
 "source": "https://commons.wikimedia.org/wiki/File:Catheter_Introducing_Forceps_01.jpg"
 },
+"etco2c": {
+"src": "img/etco2c.jpg",
+"type": "photo",
+"title": "Beatmungssystem.JPG",
+"author": "Philipp Lensing",
+"license": "CC BY-SA 3.0 de",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+"source": "https://commons.wikimedia.org/wiki/File:Beatmungssystem.JPG",
+"note": "arrow added"
+},
 "capno": {
 "src": "img/capno.jpg",
 "type": "photo",
@@ -170,33 +163,6 @@ window.IMAGES = {
 "license": "CC BY-SA 3.0",
 "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
 "source": "https://commons.wikimedia.org/wiki/File:Capnogram1.jpg"
-},
-"o2tank": {
-"src": "img/o2tank.jpg",
-"type": "photo",
-"title": "10ltr oxygen cylinder.png",
-"author": "Pawar0365",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:10ltr_oxygen_cylinder.png"
-},
-"flowmeter": {
-"src": "img/flowmeter.jpg",
-"type": "photo",
-"title": "Wall-mounted oxygen regulator valve.JPG",
-"author": "BrokenSphere",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-"source": "https://commons.wikimedia.org/wiki/File:Wall-mounted_oxygen_regulator_valve.JPG"
-},
-"neb": {
-"src": "img/neb.jpg",
-"type": "photo",
-"title": "Jet nebulizer.jpg",
-"author": "Trainer2a",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Jet_nebulizer.jpg"
 },
 "cpap": {
 "src": "img/cpap.jpg",
@@ -216,24 +182,6 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Adult_with_air_entrainment_(Venturi)_mask.png"
 },
-"peakflow": {
-"src": "img/peakflow.jpg",
-"type": "photo",
-"title": "Peak flow meter vert.jpg",
-"author": "self",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Peak_flow_meter_vert.jpg"
-},
-"incentive": {
-"src": "img/incentive.jpg",
-"type": "photo",
-"title": "Incentive spirometer.jpg",
-"author": "Johntex",
-"license": "CC BY-SA 2.5",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-"source": "https://commons.wikimedia.org/wiki/File:Incentive_spirometer.jpg"
-},
 "vent": {
 "src": "img/vent.jpg",
 "type": "photo",
@@ -243,15 +191,6 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": "https://commons.wikimedia.org/wiki/File:US,_Tanzanian_medical_professionals_conduct_an_ICU_and_ventilator_knowledge_exchange_during_Justified_Accord_26_(9566698).jpg"
 },
-"spacer": {
-"src": "img/spacer.jpg",
-"type": "photo",
-"title": "Asthma spacer adult.JPG",
-"author": "Tradimus",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Asthma_spacer_adult.JPG"
-},
 "hfnc": {
 "src": "img/hfnc.jpg",
 "type": "photo",
@@ -260,24 +199,6 @@ window.IMAGES = {
 "license": "CC BY-SA 4.0",
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Airvo_2.jpg"
-},
-"piv": {
-"src": "img/piv.jpg",
-"type": "photo",
-"title": "Braunuele.jpg",
-"author": "Florian Thillmann",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-"source": "https://commons.wikimedia.org/wiki/File:Braunuele.jpg"
-},
-"vtourn": {
-"src": "img/vtourn.jpg",
-"type": "photo",
-"title": "Laccio emostatico tubolare.jpg",
-"author": "A7N8X",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Laccio_emostatico_tubolare.jpg"
 },
 "ezio": {
 "src": "img/ezio.jpg",
@@ -306,59 +227,14 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
 "source": "https://commons.wikimedia.org/wiki/File:Druckinfusionsmanschette.jpg"
 },
-"pump": {
-"src": "img/pump.jpg",
+"stopcock": {
+"src": "img/stopcock.jpg",
 "type": "photo",
-"title": "Baxter Colleague CX infusion pump.JPG",
-"author": "BrokenSphere",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-"source": "https://commons.wikimedia.org/wiki/File:Baxter_Colleague_CX_infusion_pump.JPG"
-},
-"tubes": {
-"src": "img/tubes.jpg",
-"type": "photo",
-"title": "Drawing Test tubes different colors.jpg",
-"author": "Goldmund100",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Drawing_Test_tubes_different_colors.jpg"
-},
-"butterfly": {
-"src": "img/butterfly.jpg",
-"type": "photo",
-"title": "Butterfly needle.png",
-"author": "Original uploader was Alin0Steglinski at en.wikipedia",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Butterfly_needle.png"
-},
-"syringe": {
-"src": "img/syringe.jpg",
-"type": "photo",
-"title": "Syringe.jpg",
-"author": "Photograph by Erich Schulz, Brisbane",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Syringe.jpg"
-},
-"ivbag": {
-"src": "img/ivbag.jpg",
-"type": "photo",
-"title": "Iv1-07 014.jpg",
-"author": "Uploader: Matanya (usurped)",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-"source": "https://commons.wikimedia.org/wiki/File:Iv1-07_014.jpg"
-},
-"ivset": {
-"src": "img/ivset.jpg",
-"type": "photo",
-"title": "Infusion Set 01.jpg",
-"author": "AfroBrazilian",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Infusion_Set_01.jpg"
+"title": "Dreiwegehahn (fcm).jpg",
+"author": "Photograph: Frank C. Müller, Baden-Baden",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Dreiwegehahn_(fcm).jpg"
 },
 "bcx": {
 "src": "img/bcx.jpg",
@@ -369,15 +245,6 @@ window.IMAGES = {
 "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
 "source": "https://commons.wikimedia.org/wiki/File:Positive_BD_Bactec_blood_culture_vial_expressing_turbidity-Serratia_marcescens.jpg"
 },
-"stopcock": {
-"src": "img/stopcock.jpg",
-"type": "photo",
-"title": "Dreiwegehahn (fcm).jpg",
-"author": "Photograph: Frank C. Müller, Baden-Baden",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Dreiwegehahn_(fcm).jpg"
-},
 "us": {
 "src": "img/us.jpg",
 "type": "photo",
@@ -387,167 +254,14 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Abdominal_Ultrasound_Imaging_in_Navi_Mumbai.jpg"
 },
-"monitor": {
-"src": "img/monitor.jpg",
+"bairhugger": {
+"src": "img/bairhugger.jpg",
 "type": "photo",
-"title": "Hospital Patient Monitor (17239884329).jpg",
-"author": "Tony Webster from San Francisco, California",
-"license": "CC BY 2.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-"source": "https://commons.wikimedia.org/wiki/File:Hospital_Patient_Monitor_(17239884329).jpg"
-},
-"pulseox": {
-"src": "img/pulseox.jpg",
-"type": "photo",
-"title": "Pulse oximetry and peripheral pulse assessment on foot (2026)-bs.jpg",
-"author": "Minja Klarić",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Pulse_oximetry_and_peripheral_pulse_assessment_on_foot_(2026)-bs.jpg"
-},
-"bpcuff": {
-"src": "img/bpcuff.jpg",
-"type": "photo",
-"title": "Sphygmomanometer&Cuff.JPG",
-"author": "ML5 at English Wikipedia",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Sphygmomanometer%26Cuff.JPG"
-},
-"tymp": {
-"src": "img/tymp.jpg",
-"type": "photo",
-"title": "Infrared thermometer (Innovo).jpg",
-"author": "Ph0705",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Infrared_thermometer_(Innovo).jpg"
-},
-"temporal": {
-"src": "img/temporal.jpg",
-"type": "photo",
-"title": "Infrared forehead thermometer, made in China.jpg",
-"author": "Syced",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Infrared_forehead_thermometer,_made_in_China.jpg"
-},
-"digitherm": {
-"src": "img/digitherm.jpg",
-"type": "photo",
-"title": "DIGITAL THERMOMETER.jpg",
-"author": "Nadinviki",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:DIGITAL_THERMOMETER.jpg"
-},
-"gluc": {
-"src": "img/gluc.jpg",
-"type": "photo",
-"title": "(20250417) Blood glucose meter 09.jpg",
-"author": "Roy Zuo",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:(20250417)_Blood_glucose_meter_09.jpg"
-},
-"steth": {
-"src": "img/steth.jpg",
-"type": "photo",
-"title": "Stethoscope-2.jpg",
-"author": "HujiStat",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Stethoscope-2.jpg"
-},
-"defib": {
-"src": "img/defib.jpg",
-"type": "photo",
-"title": "LIFEPAK 20e Defibrillator and Monitor displaying synchronization with QRS complexes. (arrowheads).jpg",
-"author": "StudentDoctorDG",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:LIFEPAK_20e_Defibrillator_and_Monitor_displaying_synchronization_with_QRS_complexes._(arrowheads).jpg"
-},
-"aed": {
-"src": "img/aed.jpg",
-"type": "photo",
-"title": "Automated External Defibrillator - Orange and Black - With Screen - Mindray Brand.jpg",
-"author": "IM027",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Automated_External_Defibrillator_-_Orange_and_Black_-_With_Screen_-_Mindray_Brand.jpg"
-},
-"pads": {
-"src": "img/pads.jpg",
-"type": "photo",
-"title": "Philips self-adhesive electrodes of adefibrillator-9857.jpg",
-"author": "Raimond Spekking",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Philips_self-adhesive_electrodes_of_adefibrillator-9857.jpg"
-},
-"crash": {
-"src": "img/crash.jpg",
-"type": "photo",
-"title": "Crash Cart.jpg",
-"author": "Unknown authorUnknown author",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Crash_Cart.jpg"
-},
-"epipen": {
-"src": "img/epipen.jpg",
-"type": "photo",
-"title": "Adrenalina autoinyector8.JPG",
-"author": "AngelHM",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Adrenalina_autoinyector8.JPG"
-},
-"broselow": {
-"src": "img/broselow.jpg",
-"type": "photo",
-"title": "BTape1.jpg",
-"author": "Stkittschris",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:BTape1.jpg"
-},
-"ccollar": {
-"src": "img/ccollar.jpg",
-"type": "photo",
-"title": "LateralCollar.JPG",
-"author": "James Heilman, MD",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:LateralCollar.JPG"
-},
-"backboard": {
-"src": "img/backboard.jpg",
-"type": "photo",
-"title": "Spine board 1.jpg",
-"author": "Mdscottis",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Spine_board_1.jpg"
-},
-"scoop": {
-"src": "img/scoop.jpg",
-"type": "photo",
-"title": "ZZS MSK, záchranáři, zajištění krční páteře a transport na scoop rámu (09).jpg",
-"author": "Radim Holiš",
-"license": "CC BY-SA 3.0 cz",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/cz/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:ZZS_MSK,_z%C3%A1chran%C3%A1%C5%99i,_zaji%C5%A1t%C4%9Bn%C3%AD_kr%C4%8Dn%C3%AD_p%C3%A1te%C5%99e_a_transport_na_scoop_r%C3%A1mu_(09).jpg"
-},
-"ked": {
-"src": "img/ked.jpg",
-"type": "photo",
-"title": "Kendrick extrication device.jpg",
-"author": "Onthost",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Kendrick_extrication_device.jpg"
+"title": "Bair Hugger model 875.jpg",
+"author": "Dmadeo",
+"license": "CC BY 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Bair_Hugger_model_875.jpg"
 },
 "cat": {
 "src": "img/cat.jpg",
@@ -596,21 +310,31 @@ window.IMAGES = {
 },
 "chestseal": {
 "src": "img/chestseal.jpg",
-"type": "photo",
-"title": "Vented Fox Chest Seal.jpg",
-"author": "Bump2a",
-"license": "CC BY 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Vented_Fox_Chest_Seal.jpg"
+"type": "diagram",
+"title": "Vented-chest-seal.png",
+"author": "Baedr-9439",
+"license": "CC0",
+"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+"source": "https://commons.wikimedia.org/wiki/File:Vented-chest-seal.png",
+"note": ""
 },
-"shears": {
-"src": "img/shears.jpg",
+"ked": {
+"src": "img/ked.jpg",
 "type": "photo",
-"title": "Leatherman Raptor Rescue (2026-02-23) 2.jpg",
-"author": "Olgierd Rudak",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Leatherman_Raptor_Rescue_(2026-02-23)_2.jpg"
+"title": "Kendrick extrication device.jpg",
+"author": "Onthost",
+"license": "Public domain",
+"licenseUrl": "",
+"source": "https://commons.wikimedia.org/wiki/File:Kendrick_extrication_device.jpg"
+},
+"scoop": {
+"src": "img/scoop.jpg",
+"type": "photo",
+"title": "ZZS MSK, záchranáři, zajištění krční páteře a transport na scoop rámu (09).jpg",
+"author": "Radim Holiš",
+"license": "CC BY-SA 3.0 cz",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/cz/deed.en",
+"source": "https://commons.wikimedia.org/wiki/File:ZZS_MSK,_z%C3%A1chran%C3%A1%C5%99i,_zaji%C5%A1t%C4%9Bn%C3%AD_kr%C4%8Dn%C3%AD_p%C3%A1te%C5%99e_a_transport_na_scoop_r%C3%A1mu_(09).jpg"
 },
 "sam": {
 "src": "img/sam.jpg",
@@ -621,51 +345,6 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Sam_Splint_roll.jpg"
 },
-"sling": {
-"src": "img/sling.jpg",
-"type": "photo",
-"title": "Arm sling.jpg",
-"author": "reivax",
-"license": "CC BY-SA 2.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-"source": "https://commons.wikimedia.org/wiki/File:Arm_sling.jpg"
-},
-"crutches": {
-"src": "img/crutches.jpg",
-"type": "photo",
-"title": "Axillary Crutches.jpg",
-"author": "Jessica Fisher",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Axillary_Crutches.jpg"
-},
-"fiberglass": {
-"src": "img/fiberglass.jpg",
-"type": "photo",
-"title": "Short leg cast red.jpg",
-"author": "Jonascumgi",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Short_leg_cast_red.jpg"
-},
-"kneeimm": {
-"src": "img/kneeimm.jpg",
-"type": "photo",
-"title": "Knee immobilizer.jpg",
-"author": "Mikael Granberg",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Knee_immobilizer.jpg"
-},
-"boot": {
-"src": "img/boot.jpg",
-"type": "photo",
-"title": "Aircast walking boot.JPG",
-"author": "Pagemaker787",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Aircast_walking_boot.JPG"
-},
 "castsaw": {
 "src": "img/castsaw.jpg",
 "type": "photo",
@@ -675,68 +354,23 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": "https://commons.wikimedia.org/wiki/File:Cast_off.JPG"
 },
-"fingersplint": {
-"src": "img/fingersplint.jpg",
+"papr": {
+"src": "img/papr.jpg",
 "type": "photo",
-"title": "Finger splint.jpg",
-"author": "Salil Kumar Mukherjee",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Finger_splint.jpg"
+"title": "Portable powered HEPA respirator.jpg",
+"author": "Steven",
+"license": "CC BY 2.0",
+"licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+"source": "https://commons.wikimedia.org/wiki/File:Portable_powered_HEPA_respirator.jpg"
 },
-"ace": {
-"src": "img/ace.jpg",
+"lpneedle": {
+"src": "img/lpneedle.jpg",
 "type": "photo",
-"title": "Bandage 02.jpg",
-"author": "Ivy Dawned",
-"license": "CC BY-SA 2.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-"source": "https://commons.wikimedia.org/wiki/File:Bandage_02.jpg"
-},
-"walker": {
-"src": "img/walker.jpg",
-"type": "photo",
-"title": "Walker. frame.jpg",
-"author": "The original uploader was High Plains Drifter at English Wikipedia.",
-"license": "Public domain",
-"licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Walker._frame.jpg"
-},
-"suture": {
-"src": "img/suture.jpg",
-"type": "photo",
-"title": "Nylon suture 01.JPG",
-"author": "Saltanat",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Nylon_suture_01.JPG"
-},
-"stapler": {
-"src": "img/stapler.jpg",
-"type": "photo",
-"title": "Skin stapler 01.jpg",
-"author": "Steven Fruitsmaak",
-"license": "CC BY 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Skin_stapler_01.jpg"
-},
-"stapleremover": {
-"src": "img/stapleremover.jpg",
-"type": "photo",
-"title": "Surgical skin-clip remover 2.JPG",
-"author": "Richard Avery",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Surgical_skin-clip_remover_2.JPG"
-},
-"steri": {
-"src": "img/steri.jpg",
-"type": "photo",
-"title": "Steri-Strip tape and glue.jpeg",
-"author": "Z22",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Steri-Strip_tape_and_glue.jpeg"
+"title": "Liquor bei Spinalanaesthesie.JPG",
+"author": "DocP",
+"license": "CC BY-SA 2.0 de",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+"source": "https://commons.wikimedia.org/wiki/File:Liquor_bei_Spinalanaesthesie.JPG"
 },
 "needledriver": {
 "src": "img/needledriver.jpg",
@@ -746,15 +380,6 @@ window.IMAGES = {
 "license": "CC BY-SA 3.0",
 "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
 "source": "https://commons.wikimedia.org/wiki/File:Naaldvoerder_Mayo-hegar.jpg"
-},
-"scalpel": {
-"src": "img/scalpel.jpg",
-"type": "photo",
-"title": "Scalpel blade 10A.jpg",
-"author": "Autom",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Scalpel_blade_10A.jpg"
 },
 "adson": {
 "src": "img/adson.jpg",
@@ -774,32 +399,23 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": "https://commons.wikimedia.org/wiki/File:Hemostats.jpg"
 },
-"scissors": {
-"src": "img/scissors.jpg",
+"stapleremover": {
+"src": "img/stapleremover.jpg",
 "type": "photo",
-"title": "Surgical scissors 07.JPG",
-"author": "Saltanat ebli",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Surgical_scissors_07.JPG"
+"title": "Surgical skin-clip remover 2.JPG",
+"author": "Richard Avery",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Surgical_skin-clip_remover_2.JPG"
 },
-"gauze": {
-"src": "img/gauze.jpg",
-"type": "photo",
-"title": "Gauze 03.JPG",
-"author": "Saltanat ebli",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Gauze_03.JPG"
-},
-"tegaderm": {
-"src": "img/tegaderm.jpg",
-"type": "photo",
-"title": "Hickman line catheter with 2 lumens.jpg",
-"author": "General Ludd",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Hickman_line_catheter_with_2_lumens.jpg"
+"glue": {
+"src": "img/glue.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
 },
 "silvernitrate": {
 "src": "img/silvernitrate.jpg",
@@ -810,14 +426,14 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
 "source": "https://commons.wikimedia.org/wiki/File:Caustic_pencil.png"
 },
-"foley": {
-"src": "img/foley.jpg",
-"type": "photo",
-"title": "Urinary catheterization 01.JPG",
-"author": "Saltanat ebli",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Urinary_catheterization_01.JPG"
+"coude": {
+"src": "img/coude.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
 },
 "ng": {
 "src": "img/ng.jpg",
@@ -837,33 +453,6 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Silicone_dual_lumen_stomach_tube_with_plug_in.png"
 },
-"urinebag": {
-"src": "img/urinebag.jpg",
-"type": "photo",
-"title": "Urine bag B.jpg",
-"author": "Own work",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Urine_bag_B.jpg"
-},
-"bedpan": {
-"src": "img/bedpan.jpg",
-"type": "photo",
-"title": "Bedpan Wellcome L0008759.jpg",
-"author": "Wellcome Images (Wellcome Collection)",
-"license": "CC BY 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Bedpan_Wellcome_L0008759.jpg"
-},
-"urinal": {
-"src": "img/urinal.jpg",
-"type": "photo",
-"title": "Male urinal Wellcome L0008752.jpg",
-"author": "Wellcome Images (Wellcome Collection)",
-"license": "CC BY 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Male_urinal_Wellcome_L0008752.jpg"
-},
 "cathsyringe": {
 "src": "img/cathsyringe.jpg",
 "type": "photo",
@@ -881,15 +470,6 @@ window.IMAGES = {
 "license": "CC BY 3.0",
 "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
 "source": "https://commons.wikimedia.org/wiki/File:2008_Proktoskop_1.jpg"
-},
-"otoscope": {
-"src": "img/otoscope.jpg",
-"type": "photo",
-"title": "Otoscope or Auriscope ENT Instrument Medical.jpg",
-"author": "Sarindam7",
-"license": "CC BY-SA 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Otoscope_or_Auriscope_ENT_Instrument_Medical.jpg"
 },
 "ophth": {
 "src": "img/ophth.jpg",
@@ -909,15 +489,6 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
 "source": "https://commons.wikimedia.org/wiki/File:Retina_Group_slit_lamp_(side_view).jpg"
 },
-"snellen": {
-"src": "img/snellen.jpg",
-"type": "photo",
-"title": "1606 Snellen Chart-02.jpg",
-"author": "OpenStax College",
-"license": "CC BY 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:1606_Snellen_Chart-02.jpg"
-},
 "fluor": {
 "src": "img/fluor.jpg",
 "type": "photo",
@@ -936,14 +507,14 @@ window.IMAGES = {
 "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
 "source": "https://commons.wikimedia.org/wiki/File:Nasal_Spaculum_01.jpg"
 },
-"tongue": {
-"src": "img/tongue.jpg",
-"type": "photo",
-"title": "Tongue depressor.jpg",
-"author": "Fatimah Bello",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Tongue_depressor.jpg"
+"eyeshield": {
+"src": "img/eyeshield.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
 },
 "fetaldoppler": {
 "src": "img/fetaldoppler.jpg",
@@ -963,15 +534,6 @@ window.IMAGES = {
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
 "source": "https://commons.wikimedia.org/wiki/File:Umbilical_cord_clipper_with_a_part_of_the_umbilical_cord_still_attached_(2019)_04.jpg"
 },
-"bulb": {
-"src": "img/bulb.jpg",
-"type": "photo",
-"title": "Syringe type A.JPG",
-"author": "компания Альпина Пласт",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"source": "https://commons.wikimedia.org/wiki/File:Syringe_type_A.JPG"
-},
 "speculum": {
 "src": "img/speculum.jpg",
 "type": "photo",
@@ -990,161 +552,448 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": "https://commons.wikimedia.org/wiki/File:Faces_of_Readiness-_LT_Mackenna_Smith_Supporting_the_Warfighter_in_Rota_(9523438).jpg"
 },
-"n95": {
-"src": "img/n95.jpg",
+"broselow": {
+"src": "img/broselow.jpg",
 "type": "photo",
-"title": "N95mask.jpg",
-"author": "Hanabishi",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:N95mask.jpg"
+"title": "BTape1.jpg",
+"author": "Stkittschris",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:BTape1.jpg"
 },
-"surgmask": {
-"src": "img/surgmask.jpg",
-"type": "photo",
-"title": "A surgical mask (2017).jpg",
-"author": "AlexChirkin",
-"license": "CC0",
-"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:A_surgical_mask_(2017).jpg"
-},
-"faceshield": {
-"src": "img/faceshield.jpg",
-"type": "photo",
-"title": "Dr. Benjamin Campomanes, St. Luke's Medical Center senior vice president and chief medical officer.jpg",
-"author": "Robert Oswald P. Alfiler",
-"license": "Public domain",
+"opa_size": {
+"src": "img/opasize.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
 "licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Dr._Benjamin_Campomanes,_St._Luke%27s_Medical_Center_senior_vice_president_and_chief_medical_officer.jpg"
+"source": ""
 },
-"gloves": {
-"src": "img/gloves.jpg",
-"type": "photo",
-"title": "Disposable nitrile glove.jpg",
-"author": "Uploader: LadyInGrey",
-"license": "Public domain",
+"npa_size": {
+"src": "img/npasize.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
 "licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Disposable_nitrile_glove.jpg"
+"source": ""
 },
-"gown": {
-"src": "img/gown.jpg",
+"proseal": {
+"src": "img/proseal.jpg",
 "type": "photo",
-"title": "Hospital protective clothing infections contagious diseases.jpg",
-"author": "IdS",
+"title": "ProSeal Laryngeal Mask Airway inflated 001.jpg",
+"author": "ignis",
 "license": "CC BY-SA 3.0",
 "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-"source": "https://commons.wikimedia.org/wiki/File:Hospital_protective_clothing_infections_contagious_diseases.jpg"
+"source": "https://commons.wikimedia.org/wiki/File:ProSeal_Laryngeal_Mask_Airway_inflated_001.jpg",
+"note": ""
 },
-"papr": {
-"src": "img/papr.jpg",
+"combitube": {
+"src": "img/combitube.jpg",
 "type": "photo",
-"title": "Portable powered HEPA respirator.jpg",
-"author": "Steven",
-"license": "CC BY 2.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-"source": "https://commons.wikimedia.org/wiki/File:Portable_powered_HEPA_respirator.jpg"
+"title": "Combitube.JPG",
+"author": "Ochiwar",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Combitube.JPG",
+"note": ""
 },
-"goggles": {
-"src": "img/goggles.jpg",
+"peep": {
+"src": "img/peep.jpg",
 "type": "photo",
-"title": "Empiral Vision Grey goggles.jpg",
-"author": "Wishofflying",
+"title": "Peep ventil.jpg",
+"author": "me. Ernstl",
+"license": "CC BY-SA 2.5",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+"source": "https://commons.wikimedia.org/wiki/File:Peep_ventil.jpg",
+"note": ""
+},
+"needlecric": {
+"src": "img/needlecric.jpg",
+"type": "photo",
+"title": "NeedleCryc2.jpg",
+"author": "Doc James",
 "license": "CC BY-SA 4.0",
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Empiral_Vision_Grey_goggles.jpg"
+"source": "https://commons.wikimedia.org/wiki/File:NeedleCryc2.jpg",
+"note": ""
 },
-"sharps": {
-"src": "img/sharps.jpg",
-"type": "photo",
-"title": "Sharps container - cropped.jpg",
-"author": "Joe Mabel",
-"license": "CC BY-SA 3.0",
-"licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-"source": "https://commons.wikimedia.org/wiki/File:Sharps_container_-_cropped.jpg"
-},
-"biohazard": {
-"src": "img/biohazard.jpg",
-"type": "photo",
-"title": "Biohazard bag.jpg",
-"author": "Community Emergency Response Team (CERT)",
-"license": "Public domain",
+"blade10": {
+"src": "img/blade10.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
 "licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:Biohazard_bag.jpg"
+"source": ""
 },
-"bairhugger": {
-"src": "img/bairhugger.jpg",
+"blade11": {
+"src": "img/blade11.jpg",
 "type": "photo",
-"title": "Bair Hugger model 875.jpg",
-"author": "Dmadeo",
-"license": "CC BY 4.0",
-"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Bair_Hugger_model_875.jpg"
+"title": "Scalpel 11.jpg",
+"author": "Paradon",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Scalpel_11.jpg",
+"note": "size stamp blurred"
 },
-"restraints": {
-"src": "img/restraints.jpg",
+"blade15": {
+"src": "img/blade15.jpg",
 "type": "photo",
-"title": "PinelRestaint.jpg",
+"title": "Surgical Blade.jpg",
+"author": "JiramJarid",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Surgical_Blade.jpg",
+"note": ""
+},
+"trachhook": {
+"src": "img/trachhook.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
+},
+"frenchsuction": {
+"src": "img/frenchsuction.jpg",
+"type": "photo",
+"title": "SuctionCatheter16FrX53cm.jpg",
+"author": "PeterEasthope",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:SuctionCatheter16FrX53cm.jpg",
+"note": "cropped (connector end)"
+},
+"frazier": {
+"src": "img/frazier.jpg",
+"type": "photo",
+"title": "Frazier Suction Tubes 01.JPG",
+"author": "Saltanat",
+"license": "CC0",
+"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+"source": "https://commons.wikimedia.org/wiki/File:Frazier_Suction_Tubes_01.JPG",
+"note": ""
+},
+"speakvalve": {
+"src": "img/speakvalve.jpg",
+"type": "photo",
+"title": "Tracheotomy tube speaking valve.png",
+"author": "Tenbergen",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Tracheotomy_tube_speaking_valve.png",
+"note": ""
+},
+"hyperangle": {
+"src": "img/hyperangle.jpg",
+"type": "photo",
+"title": "Laryngoscope-Glidescope 02.JPG",
+"author": "DiverDave",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Laryngoscope-Glidescope_02.JPG",
+"note": "cropped, logo blurred"
+},
+"airtraq": {
+"src": "img/airtraq.jpg",
+"type": "photo",
+"title": "Airtraq.JPG",
+"author": "Ochiwar",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Airtraq.JPG",
+"note": ""
+},
+"mccoy": {
+"src": "img/mccoy.jpg",
+"type": "photo",
+"title": "Laringoskop McCoy.jpg",
+"author": "Privatarchiv Foto von MrArifnajafov",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Laringoskop_McCoy.jpg",
+"note": ""
+},
+"ett_cuff": {
+"src": "img/ett_cuff.jpg",
+"type": "photo",
+"title": "Endotracheal Tube (2).JPG",
+"author": "ICUnurses",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Endotracheal_Tube_(2).JPG",
+"note": "arrow added"
+},
+"ett_pilot": {
+"src": "img/ett_pilot.jpg",
+"type": "photo",
+"title": "Endotracheal Tube (2).JPG",
+"author": "ICUnurses",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Endotracheal_Tube_(2).JPG",
+"note": "arrow added"
+},
+"ett_15mm": {
+"src": "img/ett_15mm.jpg",
+"type": "photo",
+"title": "Endotracheal Tube (2).JPG",
+"author": "ICUnurses",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Endotracheal_Tube_(2).JPG",
+"note": "arrow added"
+},
+"ett_marker": {
+"src": "img/ett_marker.jpg",
+"type": "photo",
+"title": "Endotracheal Tube (2).JPG",
+"author": "ICUnurses",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:Endotracheal_Tube_(2).JPG",
+"note": "arrow added"
+},
+"murphy": {
+"src": "img/murphy.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
+},
+"exchanger": {
+"src": "img/exchanger.jpg",
+"type": "photo",
+"title": "Mandrin béquillé Eschmann (Orange) et Echangeur de Cook (Jaune).JPG",
+"author": "Svenriviere",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Mandrin_b%C3%A9quill%C3%A9_Eschmann_(Orange)_et_Echangeur_de_Cook_(Jaune).JPG",
+"note": "arrow added"
+},
+"cuffmano": {
+"src": "img/cuffmano.jpg",
+"type": "photo",
+"title": "ManometerETTube.jpg",
 "author": "James Heilman, MD",
 "license": "CC BY-SA 4.0",
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:PinelRestaint.jpg"
+"source": "https://commons.wikimedia.org/wiki/File:ManometerETTube.jpg",
+"note": ""
 },
-"stretcher": {
-"src": "img/stretcher.jpg",
+"mainstream": {
+"src": "img/mainstream.jpg",
 "type": "photo",
-"title": "Stretcher 20230603 120927.jpg",
-"author": "Ka23 13",
+"title": "Capnometry parts apart.JPG",
+"author": "Blogotron",
+"license": "CC0",
+"licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+"source": "https://commons.wikimedia.org/wiki/File:Capnometry_parts_apart.JPG",
+"note": ""
+},
+"ettholder": {
+"src": "img/ettholder.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
+},
+"hme": {
+"src": "img/hme.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
+},
+"bvfilter": {
+"src": "img/bvfilter.jpg",
+"type": "photo",
+"title": "Beatmungssystem.JPG",
+"author": "Philipp Lensing",
+"license": "CC BY-SA 3.0 de",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+"source": "https://commons.wikimedia.org/wiki/File:Beatmungssystem.JPG",
+"note": "arrow added"
+},
+"humid": {
+"src": "img/humid.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
+},
+"wye": {
+"src": "img/wye.jpg",
+"type": "diagram",
+"title": "In line suction catheter placement in ventilator circuit.png",
+"author": "Open Critical Care & World Health Organization",
 "license": "CC BY 4.0",
 "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Stretcher_20230603_120927.jpg"
+"source": "https://commons.wikimedia.org/wiki/File:In_line_suction_catheter_placement_in_ventilator_circuit.png",
+"note": "arrow added"
 },
-"wheelchair": {
-"src": "img/wheelchair.jpg",
+"closedsuction": {
+"src": "img/closedsuction.jpg",
+"type": "diagram",
+"title": "In line suction catheter placement in ventilator circuit.png",
+"author": "Open Critical Care & World Health Organization",
+"license": "CC BY 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:In_line_suction_catheter_placement_in_ventilator_circuit.png",
+"note": "arrow added"
+},
+"cathmount": {
+"src": "img/cathmount.jpg",
 "type": "photo",
-"title": "WheelchairSeatingNTSB.jpg",
-"author": "Uploader: Maksim",
+"title": "Catheter mount.JPG",
+"author": "Gliu",
+"license": "CC BY 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Catheter_mount.JPG",
+"note": ""
+},
+"flowsensor": {
+"src": "img/flowsensor.jpg",
+"type": "photo",
+"title": "Draeger Evita v500 respirator.jpg",
+"author": "George Turabelidze, Jay E. Gee, Alex R. Hoffmaster, Farrin Manian, Cindy Butler, David Byr",
 "license": "Public domain",
 "licenseUrl": "",
-"source": "https://commons.wikimedia.org/wiki/File:WheelchairSeatingNTSB.jpg"
+"source": "https://commons.wikimedia.org/wiki/File:Draeger_Evita_v500_respirator.jpg",
+"note": "arrow is part of the original photo"
 },
-"pyxis": {
-"src": "img/pyxis.jpg",
+"israeli": {
+"src": "img/israeli.jpg",
 "type": "photo",
-"title": "AWS-OR2.jpg",
-"author": "Sharon.mahood",
+"title": "The Emergency Bandage in different forms of packaging.jpg",
+"author": "Struppig taucher",
+"license": "CC BY 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:The_Emergency_Bandage_in_different_forms_of_packaging.jpg",
+"note": "package text blurred"
+},
+"nonvent": {
+"src": "img/nonvent.jpg",
+"type": "diagram",
+"title": "Vented-chest-seal.png",
+"author": "Baedr-9439",
+"license": "CC0",
+"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+"source": "https://commons.wikimedia.org/wiki/File:Vented-chest-seal.png",
+"note": "adapted for this app: valve and pattern removed to show a non-vented seal"
+},
+"needled": {
+"src": "img/needled.jpg",
+"type": "photo",
+"title": "Thoacic Decompression Needle 2.jpg",
+"author": "Intropin (Mark Oniffrey)",
 "license": "CC BY-SA 4.0",
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:AWS-OR2.jpg"
+"source": "https://commons.wikimedia.org/wiki/File:Thoacic_Decompression_Needle_2.jpg",
+"note": ""
 },
-"lpneedle": {
-"src": "img/lpneedle.jpg",
-"type": "photo",
-"title": "Liquor bei Spinalanaesthesie.JPG",
-"author": "DocP",
-"license": "CC BY-SA 2.0 de",
-"licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
-"source": "https://commons.wikimedia.org/wiki/File:Liquor_bei_Spinalanaesthesie.JPG"
+"pelvic": {
+"src": "img/pelvic.svg",
+"type": "illustration",
+"title": "Original illustration for this app",
+"author": "ED Equipment Quiz (drawn for this prototype)",
+"license": "Original work",
+"licenseUrl": "",
+"source": ""
 },
-"reflex": {
-"src": "img/reflex.jpg",
+"vacmat": {
+"src": "img/vacmat.jpg",
 "type": "photo",
-"title": "Reflex hammer.jpg",
-"author": "Samir at English Wikipedia",
+"title": "Vakuummatratze.jpg",
+"author": "Philipp Lensing",
 "license": "CC BY-SA 3.0",
 "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-"source": "https://commons.wikimedia.org/wiki/File:Reflex_hammer.jpg"
+"source": "https://commons.wikimedia.org/wiki/File:Vakuummatratze.jpg",
+"note": ""
 },
-"tuning": {
-"src": "img/tuning.jpg",
+"heimlich": {
+"src": "img/heimlich.jpg",
 "type": "photo",
-"title": "Stimmgabel nach Rydel-Seiffer.png",
-"author": "Takahe",
+"title": "Emergency Chest Drainage Set.jpg",
+"author": "Lukas Raich",
 "license": "CC BY-SA 4.0",
 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-"source": "https://commons.wikimedia.org/wiki/File:Stimmgabel_nach_Rydel-Seiffer.png"
+"source": "https://commons.wikimedia.org/wiki/File:Emergency_Chest_Drainage_Set.jpg",
+"note": "cropped, arrow added"
 },
-"simplemask": {
-"src": "img/simplemask.svg",
+"itclamp": {
+"src": "img/itclamp.jpg",
+"type": "photo",
+"title": "Kaizen-X - 3rd Medical Battalion Conducts Mass Casualty Training in a Role 2 Setting (9539526).jpg",
+"author": "U.S. Marine Corps photo by Lance Cpl. Rachel Mason",
+"license": "Public domain",
+"licenseUrl": "",
+"source": "https://commons.wikimedia.org/wiki/File:Kaizen-X_-_3rd_Medical_Battalion_Conducts_Mass_Casualty_Training_in_a_Role_2_Setting_(9539526).jpg",
+"note": ""
+},
+"io_pink": {
+"src": "img/io_pink.jpg",
+"type": "diagram",
+"title": "EZIOCannula.jpg",
+"author": "Bernd A. Leidel et al.",
+"license": "CC BY 2.5",
+"licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+"source": "https://commons.wikimedia.org/wiki/File:EZIOCannula.jpg",
+"note": "cropped"
+},
+"io_blue": {
+"src": "img/io_blue.jpg",
+"type": "diagram",
+"title": "EZIOCannula.jpg",
+"author": "Bernd A. Leidel et al.",
+"license": "CC BY 2.5",
+"licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+"source": "https://commons.wikimedia.org/wiki/File:EZIOCannula.jpg",
+"note": "cropped"
+},
+"io_yellow": {
+"src": "img/io_yellow.jpg",
+"type": "diagram",
+"title": "EZIOCannula.jpg",
+"author": "Bernd A. Leidel et al.",
+"license": "CC BY 2.5",
+"licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+"source": "https://commons.wikimedia.org/wiki/File:EZIOCannula.jpg",
+"note": "cropped"
+},
+"nio": {
+"src": "img/nio.jpg",
+"type": "photo",
+"title": "Io-nio-device.jpg",
+"author": "חברת וייסמד בע\"מ",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Io-nio-device.jpg",
+"note": ""
+},
+"big": {
+"src": "img/big.jpg",
+"type": "photo",
+"title": "Io-device.jpg",
+"author": "חברת וייסמד בע\"מ",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+"source": "https://commons.wikimedia.org/wiki/File:Io-device.jpg",
+"note": ""
+},
+"ranger": {
+"src": "img/ranger.svg",
 "type": "illustration",
 "title": "Original illustration for this app",
 "author": "ED Equipment Quiz (drawn for this prototype)",
@@ -1152,8 +1001,8 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": ""
 },
-"bougie": {
-"src": "img/bougie.svg",
+"rangerset": {
+"src": "img/rangerset.svg",
 "type": "illustration",
 "title": "Original illustration for this app",
 "author": "ED Equipment Quiz (drawn for this prototype)",
@@ -1161,8 +1010,28 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": ""
 },
-"etco2c": {
-"src": "img/etco2c.svg",
+"fluidcab": {
+"src": "img/fluidcab.jpg",
+"type": "photo",
+"title": "FluidWarmer.jpg",
+"author": "Doc James",
+"license": "CC BY-SA 4.0",
+"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+"source": "https://commons.wikimedia.org/wiki/File:FluidWarmer.jpg",
+"note": ""
+},
+"rapidinf": {
+"src": "img/rapidinf.jpg",
+"type": "photo",
+"title": "NMRTC Naples 2020 Semi-Annual Skills Fair (6330114).jpg",
+"author": "Christina Clarke",
+"license": "Public domain",
+"licenseUrl": "",
+"source": "https://commons.wikimedia.org/wiki/File:NMRTC_Naples_2020_Semi-Annual_Skills_Fair_(6330114).jpg",
+"note": "cropped"
+},
+"transducer": {
+"src": "img/transducer.svg",
 "type": "illustration",
 "title": "Original illustration for this app",
 "author": "ED Equipment Quiz (drawn for this prototype)",
@@ -1170,8 +1039,18 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": ""
 },
-"flush": {
-"src": "img/flush.svg",
+"cvc": {
+"src": "img/cvc.jpg",
+"type": "photo",
+"title": "ZVK Doppellumen.jpg",
+"author": "Florian Thillmann",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+"source": "https://commons.wikimedia.org/wiki/File:ZVK_Doppellumen.jpg",
+"note": ""
+},
+"piv14": {
+"src": "img/piv14.svg",
 "type": "illustration",
 "title": "Original illustration for this app",
 "author": "ED Equipment Quiz (drawn for this prototype)",
@@ -1179,8 +1058,8 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": ""
 },
-"electrodes": {
-"src": "img/electrodes.svg",
+"piv16": {
+"src": "img/piv16.svg",
 "type": "illustration",
 "title": "Original illustration for this app",
 "author": "ED Equipment Quiz (drawn for this prototype)",
@@ -1188,8 +1067,8 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": ""
 },
-"narcan": {
-"src": "img/narcan.svg",
+"piv18": {
+"src": "img/piv18.svg",
 "type": "illustration",
 "title": "Original illustration for this app",
 "author": "ED Equipment Quiz (drawn for this prototype)",
@@ -1197,53 +1076,18 @@ window.IMAGES = {
 "licenseUrl": "",
 "source": ""
 },
-"glue": {
-"src": "img/glue.svg",
-"type": "illustration",
-"title": "Original illustration for this app",
-"author": "ED Equipment Quiz (drawn for this prototype)",
-"license": "Original work",
-"licenseUrl": "",
-"source": ""
+"piv20": {
+"src": "img/piv20.jpg",
+"type": "photo",
+"title": "Placement of intravenous cannula 3.jpg",
+"author": "HoRaMi",
+"license": "CC BY-SA 3.0",
+"licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+"source": "https://commons.wikimedia.org/wiki/File:Placement_of_intravenous_cannula_3.jpg",
+"note": ""
 },
-"coude": {
-"src": "img/coude.svg",
-"type": "illustration",
-"title": "Original illustration for this app",
-"author": "ED Equipment Quiz (drawn for this prototype)",
-"license": "Original work",
-"licenseUrl": "",
-"source": ""
-},
-"hat": {
-"src": "img/hat.svg",
-"type": "illustration",
-"title": "Original illustration for this app",
-"author": "ED Equipment Quiz (drawn for this prototype)",
-"license": "Original work",
-"licenseUrl": "",
-"source": ""
-},
-"eyeshield": {
-"src": "img/eyeshield.svg",
-"type": "illustration",
-"title": "Original illustration for this app",
-"author": "ED Equipment Quiz (drawn for this prototype)",
-"license": "Original work",
-"licenseUrl": "",
-"source": ""
-},
-"penlight": {
-"src": "img/penlight.svg",
-"type": "illustration",
-"title": "Original illustration for this app",
-"author": "ED Equipment Quiz (drawn for this prototype)",
-"license": "Original work",
-"licenseUrl": "",
-"source": ""
-},
-"suction": {
-"src": "img/suction.svg",
+"piv22": {
+"src": "img/piv22.svg",
 "type": "illustration",
 "title": "Original illustration for this app",
 "author": "ED Equipment Quiz (drawn for this prototype)",

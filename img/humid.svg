@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f7f7f5"/>
+<rect x="110" y="200" width="180" height="70" rx="10" fill="#d9dde0" stroke="#8a9196" stroke-width="2"/>
+<rect x="124" y="214" width="58" height="22" rx="3" fill="#1d2a33"/><text x="153" y="230" font-family="monospace" font-size="14" fill="#7fe07f" text-anchor="middle">37°C</text>
+<circle cx="255" cy="235" r="14" fill="#f1f3f4" stroke="#8a9196" stroke-width="2"/>
+<rect x="125" y="192" width="150" height="10" fill="#9aa3a8"/>
+<path d="M135 192 L135 95 Q135 80 150 80 L250 80 Q265 80 265 95 L265 192 Z" fill="#e6f1f6" fill-opacity=".8" stroke="#7e98a6" stroke-width="2.5"/>
+<path d="M137 190 L137 150 Q170 144 200 150 Q230 156 263 150 L263 190 Z" fill="#9fd0ea" fill-opacity=".8"/>
+<rect x="150" y="56" width="26" height="30" rx="4" fill="#e6f1f6" stroke="#7e98a6" stroke-width="2"/>
+<rect x="224" y="56" width="26" height="30" rx="4" fill="#e6f1f6" stroke="#7e98a6" stroke-width="2"/>
+<path d="M163 56 Q163 20 110 22 L40 22" fill="none" stroke="#b9c7ce" stroke-width="14" stroke-linecap="round"/>
+<path d="M237 56 Q237 20 290 22 L360 22" fill="none" stroke="#b9c7ce" stroke-width="14" stroke-linecap="round"/>
+<path d="M200 80 L200 60 Q200 40 215 30 L330 120 L345 120" fill="none" stroke="#7aa8c4" stroke-width="3"/>
+<rect x="335" y="100" width="40" height="70" rx="8" fill="#eef6fa" stroke="#7aa8c4" stroke-width="2"/>
+<text x="355" y="190" font-family="sans-serif" font-size="11" fill="#777" text-anchor="middle">sterile water</text>
+
+</svg>
