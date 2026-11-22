@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14506b">
+<title>ED Equipment Quiz</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top" id="top">
+  <div class="row1">
+    <h1>ED Equipment Quiz</h1>
+    <div class="tools">
+      <button id="shuffleBtn" class="chip" aria-pressed="false" title="Shuffle deck">🔀</button>
+      <button id="restartBtn" class="chip" title="Restart deck">↺</button>
+    </div>
+  </div>
+  <div class="score" id="score" aria-live="polite">You got 0 out of 0 correct · 0%</div>
+  <div class="row2"><span id="progress">Item 1 / 1</span><span id="levelTag"></span></div>
+  <div class="bar"><div id="barFill"></div></div>
+</header>
+
+<div class="filters" id="filters">
+  <select id="catSel" aria-label="Category"></select>
+  <select id="lvlSel" aria-label="Level">
+    <option value="0">All levels</option>
+    <option value="1">Level 1 · Basic</option>
+    <option value="2">Level 2 · Intermediate</option>
+    <option value="3">Level 3 · Advanced</option>
+  </select>
+  <button id="hardBtn" class="hardBtn" aria-pressed="false">★ Hard ones only (<span id="hardCount">0</span>)</button>
+</div>
+
+<main id="card" class="card">
+  <div id="quiz">
+    <div class="imgWrap">
+      <img id="pic" alt="" decoding="async">
+      <span id="illoTag" class="illoTag" hidden>Illustration</span>
+      <button id="starBtn" class="star" aria-pressed="false" aria-label="Star as hard" title="Star as hard">☆</button>
+    </div>
+    <div class="credit" id="credit"></div>
+    <p class="q">What is this item?</p>
+    <div id="options" class="options"></div>
+    <section id="feedback" class="feedback" hidden>
+      <div id="verdict" class="verdict"></div>
+      <h3>What it’s used for</h3>
+      <ul id="why"></ul>
+      <button id="starInline" class="starInline" aria-pressed="false">☆ Star this one as hard</button>
+    </section>
+    <div class="nav">
+      <button id="prevBtn" class="navBtn secondary">‹ Back</button>
+      <button id="nextBtn" class="navBtn">Next ›</button>
+    </div>
+    <p class="hint">Swipe left for next · swipe right for back · tap ☆ to mark hard</p>
+  </div>
+  <div id="empty" class="empty" hidden>
+    <div class="bigStar">☆</div>
+    <h2>No hard ones starred yet</h2>
+    <p id="emptyMsg">Tap the ☆ on any card to save it here, then come back to retake just those.</p>
+    <button id="emptyBack" class="navBtn">Back to all items</button>
+  </div>
+  <div id="done" class="empty" hidden>
+    <div class="bigStar">🏁</div>
+    <h2>End of deck</h2>
+    <p id="doneMsg"></p>
+    <div class="doneBtns">
+      <button id="doneHard" class="navBtn">★ Retake hard ones</button>
+      <button id="doneRestart" class="navBtn secondary">↺ Restart this deck</button>
+      <button id="doneBack" class="navBtn secondary">‹ Back to last card</button>
+    </div>
+  </div>
+</main>
+
+<footer class="foot">
+  Educational prototype for learning, not medical advice. Sizes, doses and techniques vary: follow your facility’s policies and current guidelines.
+  <br><button id="creditsBtn" class="linkBtn">Image credits &amp; licenses</button>
+</footer>
+
+<div id="credits" class="sheet" hidden role="dialog" aria-label="Image credits">
+  <div class="sheetInner">
+    <div class="sheetHead"><h2>Image credits</h2><button id="creditsClose" class="chip close">✕ Close</button></div>
+    <p class="sheetNote">Photos are from Wikimedia Commons, used under the licenses listed (public domain, CC0, CC BY, or CC BY-SA). They were resized and compressed for this app. Items marked “Illustration” were drawn for this prototype.</p>
+    <ol id="creditList" class="creditList"></ol>
+  </div>
+</div>
+
+<script src="items.js"></script>
+<script src="images.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
